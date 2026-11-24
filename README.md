@@ -1,53 +1,60 @@
 # AI Quality Lab — English & Arabic
 
-A practical, bilingual portfolio project for reviewing AI-generated answers in English and Arabic. It demonstrates a structured human-evaluation workflow relevant to AI Quality Analyst, AI Evaluator, Data Quality, and Trust & Safety roles.
+A bilingual human-review practice lab for evaluating AI-generated answers in English and Arabic, including Iraqi Arabic. This portfolio project demonstrates a structured review workflow relevant to AI Quality Analyst, AI Evaluator, Data Quality, and Trust & Safety roles.
 
-## Project purpose
+## Project overview
 
-This lab uses sample prompts and responses to practise evaluating four dimensions:
+The lab uses fictional prompts and sample responses to practise reviewing four quality dimensions:
 
-1. **Accuracy** — Is the answer factually correct and supported by the prompt or supplied reference?
-2. **Clarity** — Is the answer understandable, relevant, and well organised?
-3. **Instruction following** — Does it do what the user asked, in the requested format and language?
-4. **Language quality** — Is the English or Arabic natural, grammatically sound, and appropriate for the audience?
+| Dimension | What the reviewer checks |
+| --- | --- |
+| Accuracy | Whether claims are supported by the prompt or supplied reference |
+| Clarity | Whether the answer is understandable, relevant, and well organised |
+| Instruction following | Whether the response follows the task, format, and language requested |
+| Language quality | Whether wording is natural and appropriate for the requested language or variety |
 
-The project includes English, Modern Standard Arabic, and Iraqi Arabic review scenarios.
+Reviewers assign a score from 1–5 for each dimension, document evidence, and choose an overall decision: **Pass**, **Needs improvement**, or **Fail / escalate**.
 
-## Important scope
+## Practice exercises
 
-This is a **human evaluation practice lab**, not an automated AI benchmark. The examples are illustrative training material. Reviewers use the rubric to score responses and document evidence. Scores are not proof of factual correctness; current or specialist claims should be checked against reliable sources.
+| Exercise | Focus | Cases |
+| --- | --- | ---: |
+| [Day 01](day-01/README.md) | Core bilingual review and rubric practice | 4 |
+| [Day 02](day-02/README.md) | Unsupported claims, strict instructions, uncertainty, and Arabic variety | 7 |
+| [Day 03](day-03/README.md) | Reviewer judgement, missing context, privacy, and assumptions | 6 |
 
-The Day 01 evaluation file is explicitly labelled as an **AI-assisted draft review pending owner review**. It is an example for learning and must not be represented as a review personally completed by the repository owner.
+## Getting started
+
+1. Read the [evaluation rubric](evaluation-rubric.md).
+2. Choose a practice set: [Day 01](day-01/README.md), [Day 02](day-02/README.md), or [Day 03](day-03/README.md).
+3. Read each prompt and its expected behaviour before judging the sample response.
+4. Record independent scores and evidence in the relevant `evaluation_log_template.csv`.
+5. Compare your reasoning with any example log only after completing your own review.
 
 ## Repository structure
 
 - `evaluation-rubric.md` — scoring guidance and reviewer principles.
-- `day-01/README.md` — first practice exercise.
-- `day-01/evaluation_examples.csv` — four initial bilingual cases.
-- `day-01/evaluation_log_template.csv` — clean reusable review log.
-- `day-01/evaluation_log_example.csv` — sample AI-assisted draft scoring with reasons.
-- `day-02/README.md` — advanced practice instructions.
-- `day-02/evaluation_challenge_cases.csv` — more challenging English and Arabic cases.
-- `day-02/evaluation_log_template.csv` — blank review log for the challenge cases.
-- `day-02/evaluation_log_example.csv` — AI-assisted draft scoring, pending owner review.
+- `day-01/` — introductory bilingual cases and example review files.
+- `day-02/` — advanced cases involving uncertainty, unsupported claims, and language variety.
+- `day-03/` — reviewer judgement cases and a blank evaluation log.
 
-## Getting started
-
-1. Read [the evaluation rubric](evaluation-rubric.md).
-2. Open [Day 1](day-01/README.md) and review the four initial cases.
-3. Compare your reasoning with the [Day 1 draft evaluation example](day-01/evaluation_log_example.csv).
-4. Use the blank evaluation log to record your own independent review.
-5. Continue with [Day 2](day-02/README.md), which covers unsupported claims, strict instructions, uncertainty, and Arabic variety.
+Each practice folder contains its own instructions and review files.
 
 ## Skills demonstrated
 
-- Structured AI-output quality review
+- Structured human evaluation of AI-generated text
+- Accuracy, clarity, and instruction-following review
 - English and Arabic language-quality assessment
-- Accuracy and instruction-following checks
 - Modern Standard Arabic and Iraqi Arabic variety awareness
-- Consistent rubric-based scoring
 - Evidence-based reviewer notes and escalation
-- Clear documentation of evaluation decisions
+- Consistent scoring and quality documentation
+- Identifying missing context, unsupported assumptions, and privacy issues
+
+## Important scope and limitations
+
+This is a **human evaluation practice lab**, not an automated AI benchmark or a production AI system. The examples are fictional training material. The rubric supports consistent review but does not prove factual correctness. Current or specialist claims should be checked against reliable sources.
+
+Some existing example evaluation logs are labelled as **AI-assisted draft reviews pending owner review**. They must not be represented as independent reviews personally completed by the repository owner. Use the blank templates for your own independent practice.
 
 ## Author
 

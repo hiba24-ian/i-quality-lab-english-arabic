@@ -28,6 +28,8 @@ The Day 01 evaluation file is explicitly labelled as an **AI-assisted draft revi
 - `day-01/evaluation_log_example.csv` — sample AI-assisted draft scoring with reasons.
 - `day-02/README.md` — advanced practice instructions.
 - `day-02/evaluation_challenge_cases.csv` — more challenging English and Arabic cases.
+- `day-02/evaluation_log_template.csv` — blank review log for the challenge cases.
+- `day-02/evaluation_log_example.csv` — AI-assisted draft scoring, pending owner review.
 
 ## Getting started
 

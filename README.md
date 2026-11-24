@@ -22,11 +22,12 @@ Reviewers assign a score from 1–5 for each dimension, document evidence, and c
 | [Day 01](day-01/README.md) | Core bilingual review and rubric practice | 4 |
 | [Day 02](day-02/README.md) | Unsupported claims, strict instructions, uncertainty, and Arabic variety | 7 |
 | [Day 03](day-03/README.md) | Reviewer judgement, missing context, privacy, and assumptions | 6 |
+| [Day 04](day-04/README.md) | Owner-reviewed practice decisions across accuracy, instructions, language, privacy, and false action claims | 6 |
 
 ## Getting started
 
 1. Read the [evaluation rubric](evaluation-rubric.md).
-2. Choose a practice set: [Day 01](day-01/README.md), [Day 02](day-02/README.md), or [Day 03](day-03/README.md).
+2. Choose a practice set: [Day 01](day-01/README.md), [Day 02](day-02/README.md), [Day 03](day-03/README.md), or [Day 04](day-04/README.md).
 3. Read each prompt and its expected behaviour before judging the sample response.
 4. Record independent scores and evidence in the relevant `evaluation_log_template.csv`.
 5. Compare your reasoning with any example log only after completing your own review.
@@ -37,6 +38,7 @@ Reviewers assign a score from 1–5 for each dimension, document evidence, and c
 - `day-01/` — introductory bilingual cases and example review files.
 - `day-02/` — advanced cases involving uncertainty, unsupported claims, and language variety.
 - `day-03/` — reviewer judgement cases and a blank evaluation log.
+- `day-04/` — six guided, owner-reviewed decisions and their rationales.
 
 Each practice folder contains its own instructions and review files.
 

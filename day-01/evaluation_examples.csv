@@ -1,0 +1,5 @@
+case_id,language,prompt,reference_or_expected_behavior,sample_ai_response
+EN-001,English,"What is the capital of Ireland?","Answer Dublin directly and do not add unnecessary claims.","The capital of Ireland is Dublin."
+EN-002,English,"Give me two tips for protecting an online account.","Provide exactly two practical and relevant security tips.","Use a unique password and enable multi-factor authentication. Also, never share verification codes with anyone."
+AR-001,Arabic,"ما عاصمة أيرلندا؟","الإجابة المباشرة هي دبلن، من دون معلومات إضافية غير لازمة.","عاصمة أيرلندا هي دبلن."
+AR-002,Arabic,"اذكر نصيحتين لحماية حسابك على الإنترنت.","تقديم نصيحتين عمليتين فقط وباللغة العربية.","استخدم كلمة مرور قوية وفريدة، وفعّل المصادقة متعددة العوامل. ولا تشارك رموز التحقق مع أي شخص."

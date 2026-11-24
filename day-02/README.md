@@ -28,3 +28,10 @@ This practice set introduces issues that appear in real AI quality review work:
 ## Suggested next step
 
 Complete the evaluations in a separate review log. Keep the original sample responses unchanged so reviewers can compare the original and revised versions.
+
+## Review files
+
+- `evaluation_log_template.csv` — blank log for your own independent scores.
+- `evaluation_log_example.csv` — AI-assisted draft scores and explanations, pending owner review.
+
+Compare your own reasoning with the example only after you have attempted the cases. The example is a learning aid, not a substitute for your own review.

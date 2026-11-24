@@ -1,0 +1,8 @@
+case_id,reviewer,accuracy_score_1_to_5,accuracy_reason,clarity_score_1_to_5,clarity_reason,instruction_following_score_1_to_5,instruction_following_reason,language_quality_score_1_to_5,language_quality_reason,overall_decision,issue_or_escalation,review_date
+EN-003,,,,,,,,,,,,
+EN-004,,,,,,,,,,,,
+EN-005,,,,,,,,,,,,
+AR-003,,,,,,,,,,,,
+AR-004,,,,,,,,,,,,
+AR-005,,,,,,,,,,,,
+EN-006,,,,,,,,,,,,
